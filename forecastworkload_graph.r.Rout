@@ -1,0 +1,94 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> Sys.setlocale("LC_TIME", "C");
+[1] "C"
+> library(lubridate);
+
+Attaching package: ‘lubridate’
+
+The following object is masked from ‘package:base’:
+
+    date
+
+Warning message:
+package ‘lubridate’ was built under R version 3.2.4 
+> library(TTR);
+Warning message:
+package ‘TTR’ was built under R version 3.2.4 
+> library(fpp)
+Loading required package: forecast
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: timeDate
+This is forecast 6.2 
+
+Loading required package: fma
+Loading required package: tseries
+Loading required package: expsmooth
+Loading required package: lmtest
+> library(forecast)
+> library(zoo)
+> setwd("/Users/subramanya/Dropbox/Project/Code/ElasticSim/r_scripts");
+> source("config.r");
+> 
+> scaleup_forecast_header = c("UnixTimeStamp","ScaleupForecast");
+> scale_up_workload = read.csv(FORECAST_SCALEUP_WORKLOAD,sep=",",header=F);
+> colnames(scale_up_workload)  <- scaleup_forecast_header; 
+> 
+> scaledown_forecast_header = c("UnixTimeStamp","ScaledownForecast");
+> scale_down_workload = read.csv(FORECAST_SCALEDOWN_WORKLOAD,sep=",",header=F);
+> colnames(scale_down_workload)  <- scaledown_forecast_header; 
+> 
+> actual_header = c("UnixTimeStamp","ActualWorkload");
+> actual_workload = read.csv(ACTUAL_WORKLOAD,sep=",",header=F);
+> colnames(actual_workload)  <- actual_header; 
+> 
+> scale_up_workload$PosxTime= as.POSIXct(scale_up_workload$UnixTimeStamp, origin="1970-01-01");
+> tsdata.forecast_scaleup = zoo(scale_up_workload$ScaleupForecast,scale_up_workload$PosxTime);
+> tsdata.forecast_scaledown = zoo(scale_down_workload$ScaledownForecast,scale_up_workload$PosxTime);
+> tsdata.actual = zoo(actual_workload$ActualWorkload,scale_up_workload$PosxTime);
+> tsdata.together = merge(tsdata.actual,tsdata.forecast_scaleup,tsdata.forecast_scaledown);
+> tsdata.actualscaleup = merge(tsdata.actual,tsdata.forecast_scaleup);
+> tsdata.actualscaledown = merge(tsdata.actual,tsdata.forecast_scaledown);
+> 
+> lty=c("dotted", "dotted","dotted")
+> pdf('ActualForecast.pdf', height=5, width=7)
+> plot(tsdata.together, screens=1, lty=lty, pch="3", main="Actual Workload vs Scaleup Forecast vs Scaledown Forecast", xlab="Time (in Hours)", ylab="Number of user requests", col=c("red","blue","green"))
+> legend("bottomright", inset=.02, title="Legend", c("Actual","Scale Up Forecast","Scale Down Forecast"),lty=lty, col=c("red","blue","green"),cex=0.75)
+> 
+> plot(tsdata.actualscaleup, screens=1, lty=lty, pch="3", main="Actual Workload vs Scaleup Forecast", xlab="Time (in Hours)", ylab="Number of user requests", col=c("red","blue","green"))
+> legend("bottomright", inset=.02, title="Legend", c("Actual","Scale Up Forecast"),lty=lty, col=c("red","blue","green"),cex=0.75)
+> 
+> plot(tsdata.actualscaledown, screens=1, lty=lty, pch="3", main="Actual Workload vs Scaledown Forecast", xlab="Time (in Hours)", ylab="Number of user requests", col=c("red","green"))
+> legend("bottomright", inset=.02, title="Legend", c("Actual","Scale Down Forecast"),lty=lty, col=c("red","green"),cex=0.75)
+> dev.off()
+null device 
+          1 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  1.292   0.064   1.352 

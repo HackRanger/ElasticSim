@@ -1,4 +1,5 @@
 WORKLOAD="../workloads/rtc_last_dataset.csv";
+ACTUAL_WORKLOAD="../workloads/actual_workload.csv";
 FORECAST_SCALEUP_WORKLOAD="../workloads/forecast_scaleup.csv";
 FORECAST_SCALEDOWN_WORKLOAD="../workloads/forecast_scaledown.csv";
 LOOKAHEAD_SCALEUP=5;
@@ -10,3 +11,4 @@ VERBOSE_SYSTEM_LOG_WITH_RI="../logs/verbose_simlog_ri.csv";
 VM_BILLING_HOURS_LOG="../logs/billing_hours.csv";
 VM_BILLING_HOURS_WITH_RI_LOG="../logs/billing_hours_with_ri.csv";
 VM_BILLING_HOURS_WITH_RI_VERBOSE_LOG="../logs/verbose_billing_hours_with_ri.csv";
+COST_LOG="../logs/cost_log.csv"

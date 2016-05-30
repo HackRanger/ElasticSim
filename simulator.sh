@@ -9,12 +9,16 @@ read option
 
 case $option in
 	1)
-		R CMD BATCH r_scripts/predictionforworkload.r
+		R CMD BATCH r_scripts/forecastworkload.r
+		R CMD BATCH r_scripts/forecastworkload_graph.r
+		open r_scripts/ActualForecast.pdf
 		;;
 
 	2)
 		javac AppElastic.java
 		java AppElastic 2
+		R CMD BATCH r_scripts/cost_graphs.r
+		open r_scripts/cost_graphs.pdf
 		;;
 	3)
 		javac AppElastic.java

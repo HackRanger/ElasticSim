@@ -96,10 +96,13 @@ Warning messages:
   some methods for “zoo” objects do not work if the index entries in ‘order.by’ are not unique
 3: In zoo(rval[i], index(x)[i]) :
   some methods for “zoo” objects do not work if the index entries in ‘order.by’ are not unique
+> 
+> 
+> 
 > dev.off()
 null device 
           1 
 > 
 > proc.time()
    user  system elapsed 
-  1.574   0.079   1.670 
+  1.368   0.094   1.540 

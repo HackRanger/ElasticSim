@@ -151,6 +151,7 @@ public class AppElastic {
 
             double baseLineCost = calculateBaseLineCost();
             int totalInstancesNeeded = peakWorkload/numberOfUserPerInstance;
+            //int totalInstancesNeeded = runningInstance.size();
 
             BufferedWriter bw;
             bw = new BufferedWriter(new FileWriter(COST_LOG));
@@ -180,7 +181,7 @@ public class AppElastic {
                     totalOdiCost += odiCost * (((runningOdiInstances.get(k).billingHourEndTime
                             - runningOdiInstances.get(k).billingHourStartTime) / 60)/60);
                 }
-                System.out.println("baselin:"+baseLineCost+" ricost:"+totalRiCost+" odicost:"+totalOdiCost
+                System.out.println("baseline:"+baseLineCost+" ricost:"+totalRiCost+" odicost:"+totalOdiCost
                 +" total "+(totalOdiCost+totalRiCost));
                 System.out.println("RI Count:" + runningRiInstances.size() +" ODI Count:" + runningOdiInstances.size());
 
@@ -201,6 +202,7 @@ public class AppElastic {
     public static double calculateBaseLineCost()
     {
         double baseLineCost =  (peakWorkload/numberOfUserPerInstance) * (workloadSize / 60) * riCost;
+        //double baseLineCost =  runningInstance.size()  * (workloadSize / 60) * riCost ;
         return baseLineCost;
     }
 

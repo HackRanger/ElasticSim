@@ -1,0 +1,932 @@
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1034435 21.03759 9.168321 -0.05720017 1.539663 0.01320929
+                     ACF1
+Training set -0.001300049
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1033565 21.01702 9.155263 -0.05732618 1.542785 0.01321364
+                     ACF1
+Training set -0.001300921
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1026076 20.99644 9.142378 -0.05667021 1.545704 0.01321796
+                    ACF1
+Training set -0.00130214
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.1040205 20.97568 9.12728 -0.05840733 1.546212 0.01321916
+                     ACF1
+Training set -0.001303175
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.1033237 20.95492 9.11101 -0.05771897 1.545349 0.01321866
+                     ACF1
+Training set -0.001303107
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1014004 20.93442 9.096747 -0.05571843 1.546583 0.01322084
+                     ACF1
+Training set -0.001302825
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.09966619 20.91381 9.08069 -0.05402115 1.545526 0.01322003
+                     ACF1
+Training set -0.001302484
+                    ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.101718 20.89354 9.067375 -0.05633013 1.547463 0.01322317
+                     ACF1
+Training set -0.001304029
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1034983 20.87309 9.052411 -0.05850979 1.547791 0.01322413
+                     ACF1
+Training set -0.001305261
+                     ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1023661 20.8529 9.039033 -0.05735654 1.549979 0.01322735
+                    ACF1
+Training set -0.00130541
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1024989 20.83279 9.025208 -0.05770922 1.551715 0.01322991
+                    ACF1
+Training set -0.00130591
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1035074 20.81246 9.009742 -0.05909024 1.551374 0.01323003
+                    ACF1
+Training set -0.00130537
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.1012919 20.79219 8.99416 -0.05655709 1.550763 0.01322985
+                     ACF1
+Training set -0.001304731
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.1008457 20.77208 8.97991 -0.05620013 1.551582 0.01323145
+                    ACF1
+Training set -0.00130483
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1012036 20.75286 8.970569 -0.05688176 1.558782 0.01324043
+                     ACF1
+Training set -0.001304661
+                    ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.102521 20.73338 8.959045 -0.05878193 1.563157 0.01324609
+                     ACF1
+Training set -0.001302698
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1002819 20.71365 8.946664 -0.05627778 1.565818 0.01325019
+                     ACF1
+Training set -0.001301277
+                      ME     RMSE      MAE        MPE     MAPE       MASE
+Training set -0.09114571 20.69538 8.939682 -0.0478393 1.572555 0.01326159
+                     ACF1
+Training set -0.001302176
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.08780919 20.67626 8.929378 -0.04534742 1.574612 0.01326671
+                     ACF1
+Training set -0.001299835
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.08709304 20.65669 8.916301 -0.04490295 1.574514 0.01326757
+                     ACF1
+Training set -0.001298699
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0876892 20.63701 8.902762 -0.04536544 1.574026 0.01326755
+                     ACF1
+Training set -0.001299482
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.08809686 20.61754 8.890681 -0.04570491 1.574629 0.01326978
+                     ACF1
+Training set -0.001299395
+                      ME     RMSE    MAE         MPE     MAPE       MASE
+Training set -0.08809907 20.59782 8.8752 -0.04574207 1.572727 0.01326681
+                     ACF1
+Training set -0.001299583
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0837938 20.57865 8.864309 -0.04287461 1.573817 0.01327027
+                     ACF1
+Training set -0.001299195
+                      ME     RMSE    MAE         MPE     MAPE       MASE
+Training set -0.08521744 20.55908 8.8498 -0.04382852 1.572381 0.01326807
+                     ACF1
+Training set -0.001300133
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.08498201 20.53988 8.837226 -0.04371896 1.572146 0.01326864
+                     ACF1
+Training set -0.001299556
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.08119175 20.52107 8.827688 -0.04138808 1.573804 0.01327363
+                     ACF1
+Training set -0.001297323
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.08235243 20.50223 8.817048 -0.04213721 1.574486 0.01327655
+                    ACF1
+Training set -0.00129717
+                      ME     RMSE      MAE         MPE    MAPE       MASE
+Training set -0.07873096 20.48348 8.805585 -0.04003185 1.57463 0.01327821
+                     ACF1
+Training set -0.001296027
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07440162 20.4648 8.794788 -0.03770427 1.574781 0.01328002
+                     ACF1
+Training set -0.001293461
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07148428 20.44641 8.785127 -0.03627639 1.575216 0.01328271
+                     ACF1
+Training set -0.001293829
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.06651359 20.42811 8.775412 -0.03401398 1.575331 0.01328451
+                     ACF1
+Training set -0.001290696
+                      ME     RMSE      MAE        MPE     MAPE       MASE
+Training set -0.06711146 20.40907 8.761537 -0.0342679 1.573506 0.01327974
+                     ACF1
+Training set -0.001291556
+                      ME     RMSE      MAE         MPE     MAPE      MASE
+Training set -0.06951409 20.39166 8.754498 -0.03538023 1.574792 0.0132856
+                     ACF1
+Training set -0.001288358
+                      ME     RMSE      MAE         MPE     MAPE      MASE
+Training set -0.07179439 20.37593 8.749047 -0.03652699 1.577274 0.0132945
+                     ACF1
+Training set -0.001285967
+                      ME     RMSE      MAE       MPE     MAPE       MASE
+Training set -0.07195877 20.35727 8.737384 -0.036613 1.576573 0.01329376
+                     ACF1
+Training set -0.001285344
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.06962086 20.33881 8.726559 -0.03550485 1.576286 0.01329432
+                     ACF1
+Training set -0.001285568
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07057077 20.31992 8.712191 -0.03595059 1.574239 0.01328921
+                     ACF1
+Training set -0.001285644
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.06730886 20.30132 8.70019 -0.03444595 1.573236 0.01328733
+                     ACF1
+Training set -0.001285583
+                      ME     RMSE      MAE         MPE    MAPE       MASE
+Training set -0.07238779 20.28372 8.690042 -0.03684279 1.57313 0.01328843
+                     ACF1
+Training set -0.001286203
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07506154 20.26532 8.676924 -0.03820077 1.571748 0.01328575
+                     ACF1
+Training set -0.001289628
+                      ME     RMSE      MAE        MPE     MAPE       MASE
+Training set -0.06947538 20.24819 8.669394 -0.0354413 1.573045 0.01329109
+                     ACF1
+Training set -0.001284923
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.06863332 20.22997 8.65859 -0.03505775 1.572611 0.01329116
+                    ACF1
+Training set -0.00128522
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07423349 20.21289 8.652126 -0.03784416 1.574517 0.01329817
+                     ACF1
+Training set -0.001290335
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07457975 20.19503 8.641496 -0.03804367 1.574478 0.01329933
+                     ACF1
+Training set -0.001295545
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07729233 20.17691 8.630249 -0.03956176 1.574188 0.01329977
+                     ACF1
+Training set -0.001297526
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07650589 20.15883 8.619424 -0.03913689 1.574204 0.01330099
+                     ACF1
+Training set -0.001294512
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07765239 20.14066 8.607535 -0.03982051 1.573562 0.01330044
+                     ACF1
+Training set -0.001294286
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.07798204 20.12254 8.59574 -0.04003607 1.572961 0.01330004
+                     ACF1
+Training set -0.001296188
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07854471 20.10435 8.582639 -0.04039145 1.571605 0.01329762
+                     ACF1
+Training set -0.001296426
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07574614 20.08662 8.572155 -0.03878402 1.571771 0.01329927
+                     ACF1
+Training set -0.001296843
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07482466 20.06869 8.560595 -0.03827903 1.571131 0.01329872
+                     ACF1
+Training set -0.001297064
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07679339 20.05082 8.549761 -0.03940924 1.570982 0.01329948
+                     ACF1
+Training set -0.001298413
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07453346 20.03307 8.539174 -0.03814664 1.570944 0.01330056
+                    ACF1
+Training set -0.00129759
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07332562 20.01523 8.527306 -0.03750051 1.570087 0.01329941
+                     ACF1
+Training set -0.001295762
+                      ME     RMSE     MAE        MPE     MAPE       MASE
+Training set -0.07544864 19.99862 8.52118 -0.0387025 1.572105 0.01330675
+                     ACF1
+Training set -0.001293442
+                      ME     RMSE      MAE        MPE     MAPE       MASE
+Training set -0.07393601 19.98083 8.509108 -0.0378798 1.571061 0.01330504
+                     ACF1
+Training set -0.001295219
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07348752 19.96348 8.499909 -0.03766405 1.571628 0.01330785
+                     ACF1
+Training set -0.001294736
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07340995 19.94677 8.491917 -0.03766534 1.572905 0.01331268
+                     ACF1
+Training set -0.001295692
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07693417 19.93127 8.486674 -0.03977735 1.575711 0.01332159
+                     ACF1
+Training set -0.001298566
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07489991 19.91403 8.476548 -0.03864275 1.575799 0.01332295
+                     ACF1
+Training set -0.001290519
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07717874 19.89705 8.466855 -0.04001883 1.576238 0.01332524
+                     ACF1
+Training set -0.001299785
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07741537 19.8794 8.453722 -0.04017869 1.574634 0.01332225
+                     ACF1
+Training set -0.001299436
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07731248 19.86208 8.442658 -0.04013932 1.574216 0.01332233
+                     ACF1
+Training set -0.001299213
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07718949 19.84483 8.432331 -0.04009268 1.574338 0.01332373
+                     ACF1
+Training set -0.001301256
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0736474 19.82764 8.421578 -0.03800801 1.574035 0.01332412
+                     ACF1
+Training set -0.001297745
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07229922 19.81027 8.409458 -0.03726837 1.572805 0.01332186
+                     ACF1
+Training set -0.001298401
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0700516 19.79293 8.396762 -0.03607926 1.571157 0.01331827
+                     ACF1
+Training set -0.001285605
+                      ME     RMSE      MAE         MPE     MAPE      MASE
+Training set -0.06971247 19.77617 8.387522 -0.03592579 1.571249 0.0133198
+                     ACF1
+Training set -0.001289373
+                      ME     RMSE      MAE         MPE    MAPE      MASE
+Training set -0.06848788 19.75902 8.376127 -0.03531165 1.57019 0.0133178
+                     ACF1
+Training set -0.001300878
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.06827742 19.74555 8.373631 -0.03531507 1.573973 0.01333036
+                     ACF1
+Training set -0.001300526
+                      ME     RMSE      MAE         MPE     MAPE      MASE
+Training set -0.06577262 19.72908 8.364939 -0.03410813 1.574141 0.0133323
+                     ACF1
+Training set -0.001353028
+                      ME     RMSE     MAE         MPE    MAPE       MASE
+Training set -0.06837487 19.71201 8.35331 -0.03536973 1.57283 0.01332939
+                     ACF1
+Training set -0.001297851
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.06776668 19.69493 8.341037 -0.03506822 1.571232 0.01332562
+                     ACF1
+Training set -0.001298045
+                      ME   RMSE      MAE         MPE     MAPE       MASE
+Training set -0.07251321 19.679 8.332666 -0.03757424 1.571712 0.01332811
+                   ACF1
+Training set -0.0012975
+                      ME     RMSE     MAE         MPE     MAPE      MASE
+Training set -0.07027148 19.66228 8.32144 -0.03639467 1.570709 0.0133263
+                     ACF1
+Training set -0.001342851
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.06967692 19.64544 8.310404 -0.03609095 1.569794 0.01332474
+                     ACF1
+Training set -0.001326622
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.06099636 19.63028 8.305601 -0.03195954 1.571629 0.01333219
+                     ACF1
+Training set -0.001326521
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.05781807 19.61429 8.297308 -0.03063737 1.571429 0.01333311
+                     ACF1
+Training set -0.001296751
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.05928715 19.59829 8.290169 -0.03123228 1.571635 0.01333549
+                     ACF1
+Training set -0.001329701
+                      ME     RMSE      MAE         MPE     MAPE      MASE
+Training set -0.05239743 19.58278 8.283481 -0.02855726 1.571827 0.0133379
+                     ACF1
+Training set -0.001298327
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.04948615 19.56749 8.275182 -0.02751652 1.571209 0.01333682
+                     ACF1
+Training set -0.001297377
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.04552424 19.55161 8.266945 -0.02617694 1.570534 0.01333554
+                     ACF1
+Training set -0.001326409
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03929236 19.53689 8.261484 -0.02423238 1.570549 0.01333753
+                     ACF1
+Training set -0.001300354
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03661408 19.52031 8.249927 -0.02343362 1.568612 0.01332902
+                     ACF1
+Training set -0.001299973
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.04171215 19.50511 8.243799 -0.02492332 1.568289 0.01332959
+                     ACF1
+Training set -0.001296676
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03962174 19.48921 8.235363 -0.02428612 1.567296 0.01332642
+                     ACF1
+Training set -0.001301927
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.04097781 19.47352 8.226985 -0.02467897 1.566291 0.01332306
+                     ACF1
+Training set -0.001299934
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03320952 19.45855 8.221347 -0.02244713 1.566007 0.01332374
+                     ACF1
+Training set -0.001293065
+                       ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.0008875589 19.48339 8.243746 -0.01466632 1.571611 0.01336557
+                     ACF1
+Training set -0.001330565
+                      ME     RMSE      MAE         MPE   MAPE      MASE
+Training set 0.004171731 19.46874 8.239935 -0.01398053 1.5708 0.0133616
+                     ACF1
+Training set -0.001298744
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set 0.006080296 19.4529 8.231809 -0.01361515 1.569164 0.01335015
+                    ACF1
+Training set -0.00130335
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01285161 19.43817 8.227519 -0.01243784 1.568168 0.01334453
+                     ACF1
+Training set -0.001302593
+                     ME    RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01203615 19.4239 8.223282 -0.01256847 1.567128 0.01333848
+                     ACF1
+Training set -0.001300479
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01509237 19.41251 8.221563 -0.01206493 1.566456 0.01333612
+                     ACF1
+Training set -0.001297546
+                     ME     RMSE     MAE        MPE     MAPE       MASE
+Training set 0.02665776 19.40236 8.22611 -0.0102266 1.566639 0.01334206
+                    ACF1
+Training set -0.00130431
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03069388 19.38681 8.218291 -0.009601856 1.564881 0.01332675
+                     ACF1
+Training set -0.001313502
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.02562277 19.37363 8.212913 -0.01032664 1.563465 0.01331505
+                     ACF1
+Training set -0.001302402
+                     ME   RMSE      MAE         MPE    MAPE       MASE
+Training set 0.02603798 19.358 8.204391 -0.01024768 1.56161 0.01329876
+                     ACF1
+Training set -0.001308371
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set 0.02063923 19.34308 8.19828 -0.01102311 1.560151 0.01328705
+                     ACF1
+Training set -0.001331298
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.02860859 19.33153 8.195844 -0.009829792 1.559236 0.01328165
+                    ACF1
+Training set -0.00134518
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05525709 19.33152 8.210847 -0.006121313 1.560665 0.01330037
+                     ACF1
+Training set -0.001303985
+                     ME     RMSE      MAE          MPE     MAPE      MASE
+Training set 0.05943244 19.31753 8.206098 -0.005567133 1.559124 0.0132846
+                     ACF1
+Training set -0.001304448
+                     ME     RMSE      MAE          MPE     MAPE      MASE
+Training set 0.05468919 19.30285 8.199956 -0.006112276 1.557411 0.0132663
+                     ACF1
+Training set -0.001301422
+                     ME     RMSE      MAE          MPE    MAPE      MASE
+Training set 0.06199106 19.28997 8.196476 -0.005248533 1.55602 0.0132522
+                     ACF1
+Training set -0.001302128
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05196738 19.27735 8.197138 -0.006421069 1.555112 0.01324502
+                     ACF1
+Training set -0.001295674
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05769676 19.26601 8.197195 -0.005738313 1.554175 0.01323757
+                     ACF1
+Training set -0.001295486
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.03975176 19.29878 8.227598 -0.00806669 1.556957 0.01327864
+                     ACF1
+Training set -0.001328814
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03996893 19.28671 8.227328 -0.008024462 1.555978 0.01327233
+                     ACF1
+Training set -0.001312909
+                     ME     RMSE      MAE          MPE    MAPE       MASE
+Training set 0.03891036 19.27104 8.216742 -0.008138655 1.55381 0.01325033
+                     ACF1
+Training set -0.001314156
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03571497 19.25918 8.216536 -0.008553976 1.553029 0.01324556
+                     ACF1
+Training set -0.001320221
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.02227286 19.24912 8.216753 -0.01040366 1.552471 0.01324324
+                     ACF1
+Training set -0.001327738
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03151967 19.23755 8.215636 -0.009077086 1.551699 0.01323911
+                     ACF1
+Training set -0.001322833
+                     ME     RMSE     MAE          MPE     MAPE       MASE
+Training set 0.07906336 19.32501 8.25436 -0.003140391 1.556075 0.01329232
+                     ACF1
+Training set -0.001351379
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.08032683 19.31096 8.249587 -0.002959929 1.554421 0.01327232
+                     ACF1
+Training set -0.001306585
+                    ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.0794837 19.29724 8.244648 -0.003027466 1.552747 0.01325163
+                     ACF1
+Training set -0.001307204
+                     ME   RMSE      MAE          MPE     MAPE       MASE
+Training set 0.08570674 19.284 8.239237 -0.002382047 1.550994 0.01322979
+                     ACF1
+Training set -0.001308303
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.07567842 19.27044 8.235798 -0.003377091 1.549494 0.01321165
+                     ACF1
+Training set -0.001308627
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.07381446 19.25518 8.226273 -0.003548338 1.547384 0.01318487
+                     ACF1
+Training set -0.001307816
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.08510362 19.24469 8.227481 -0.002385438 1.546357 0.01317452
+                     ACF1
+Training set -0.001311205
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.08311733 19.22993 8.220156 -0.002570149 1.544449 0.01314982
+                     ACF1
+Training set -0.001314369
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.07452107 19.21682 8.216504 -0.003423949 1.542956 0.01313187
+                     ACF1
+Training set -0.001315338
+                     ME     RMSE      MAE          MPE     MAPE      MASE
+Training set 0.07649948 19.20175 8.206487 -0.003208057 1.540805 0.0131044
+                     ACF1
+Training set -0.001314093
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.04297955 19.24668 8.232157 -0.00695079 1.542851 0.01313649
+                     ACF1
+Training set -0.001347175
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.04811324 19.23232 8.226741 -0.006339216 1.541341 0.01312187
+                     ACF1
+Training set -0.001362054
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.08742335 19.38968 8.287887 -0.002290123 1.546623 0.01320817
+                     ACF1
+Training set -0.001563429
+                     ME    RMSE      MAE          MPE     MAPE       MASE
+Training set 0.08478752 19.3757 8.282856 -0.002566054 1.544934 0.01318716
+                     ACF1
+Training set -0.001548061
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.07012856 19.36394 8.284292 -0.004034128 1.544014 0.01317777
+                     ACF1
+Training set -0.001553494
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.06206254 19.35316 8.284397 -0.004870844 1.543007 0.01316792
+                     ACF1
+Training set -0.001544397
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05319635 19.33931 8.279673 -0.005824113 1.541541 0.01315226
+                     ACF1
+Training set -0.001548253
+                     ME    RMSE      MAE          MPE    MAPE       MASE
+Training set 0.05091468 19.3253 8.274505 -0.006065675 1.54006 0.01313736
+                     ACF1
+Training set -0.001542482
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03621748 19.32734 8.297798 -0.009445494 1.545091 0.01316751
+                     ACF1
+Training set 0.0001150626
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03552133 19.31682 8.296622 -0.009514293 1.544007 0.01316116
+                     ACF1
+Training set 0.0001282341
+                    ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.0244335 19.30942 8.303148 -0.01103407 1.544335 0.01316875
+                     ACF1
+Training set 0.0001253103
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.007041157 19.33663 8.318722 -0.01377514 1.546403 0.01319376
+                    ACF1
+Training set 5.58226e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.002788805 19.32409 8.316397 -0.01450152 1.545781 0.01319159
+                     ACF1
+Training set 6.491878e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set 0.006298201 19.3107 8.312399 -0.01387671 1.544968 0.01318755
+                     ACF1
+Training set 8.056948e-05
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05379263 19.47924 8.358684 -0.007276231 1.550568 0.01325737
+                    ACF1
+Training set 0.000109457
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05724961 19.46569 8.353057 -0.006811671 1.548925 0.01324157
+                     ACF1
+Training set 0.0001141885
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.05306881 19.45107 8.344275 -0.007293369 1.547013 0.01322058
+                     ACF1
+Training set 0.0001125484
+                    ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.0477412 19.43763 8.339658 -0.00791425 1.545609 0.01320674
+                     ACF1
+Training set 0.0001038292
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.04161839 19.42529 8.337531 -0.00864993 1.544607 0.01319823
+                     ACF1
+Training set 0.0001041157
+                     ME     RMSE      MAE        MPE     MAPE       MASE
+Training set 0.04311512 19.41063 8.328549 -0.0084399 1.542707 0.01317925
+                     ACF1
+Training set 0.0001054548
+                     ME     RMSE      MAE          MPE    MAPE       MASE
+Training set 0.04113884 19.39582 8.319093 -0.008673622 1.54076 0.01315952
+                     ACF1
+Training set 0.0001076383
+                     ME    RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03406748 19.3818 8.313154 -0.009579333 1.539303 0.01314604
+                     ACF1
+Training set 0.0001056701
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.02512175 19.36894 8.309045 -0.01078439 1.538175 0.01313685
+                     ACF1
+Training set 8.892387e-05
+                       ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.002338527 19.37705 8.322667 -0.01510262 1.540284 0.01315804
+                     ACF1
+Training set 3.931173e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.003658983 19.36544 8.319733 -0.01410641 1.539534 0.01315537
+                     ACF1
+Training set 4.099654e-05
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set 0.01002144 19.35341 8.31751 -0.01299275 1.539017 0.01315393
+                    ACF1
+Training set 3.16181e-05
+                     ME     RMSE      MAE          MPE    MAPE       MASE
+Training set 0.03854249 19.38832 8.341911 -0.008668991 1.54217 0.01319063
+                     ACF1
+Training set 3.262809e-05
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.04038408 19.37832 8.342306 -0.008400773 1.541549 0.01318704
+                     ACF1
+Training set 1.178708e-05
+                     ME    RMSE      MAE          MPE     MAPE       MASE
+Training set 0.04110871 19.3654 8.338071 -0.008281584 1.540238 0.01317548
+                     ACF1
+Training set 8.540215e-06
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03933213 19.35183 8.332992 -0.008493307 1.538878 0.01316294
+                     ACF1
+Training set 4.629387e-05
+                     ME     RMSE      MAE          MPE    MAPE       MASE
+Training set 0.03817272 19.34084 8.332438 -0.008631402 1.53813 0.01315832
+                    ACF1
+Training set 4.03333e-05
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03621748 19.32887 8.330271 -0.008874578 1.537185 0.01315138
+                     ACF1
+Training set 4.030555e-05
+                     ME    RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03476555 19.3146 8.321025 -0.009049476 1.535297 0.01313316
+                     ACF1
+Training set 3.741998e-05
+                     ME     RMSE      MAE       MPE    MAPE      MASE
+Training set 0.03343809 19.30195 8.317508 -0.009216 1.53419 0.0131241
+                     ACF1
+Training set 3.635553e-05
+                     ME     RMSE      MAE        MPE     MAPE       MASE
+Training set 0.02490715 19.28887 8.313335 -0.0103784 1.533072 0.01311498
+                     ACF1
+Training set 3.880735e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.009994165 19.30873 8.325884 -0.01267362 1.534772 0.01313507
+                     ACF1
+Training set 7.824883e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.008317463 19.29457 8.317155 -0.01291559 1.533084 0.01312255
+                     ACF1
+Training set 7.512072e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01331927 19.28262 8.315753 -0.01207555 1.532656 0.01312159
+                     ACF1
+Training set 7.061022e-05
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03209298 19.30597 8.334446 -0.009268645 1.534856 0.01314922
+                     ACF1
+Training set 8.226949e-05
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.03509231 19.29173 8.325374 -0.008816898 1.533004 0.01313174
+                     ACF1
+Training set 5.501702e-05
+                     ME     RMSE      MAE          MPE     MAPE       MASE
+Training set 0.02857351 19.28014 8.323183 -0.009704095 1.532116 0.01312536
+                     ACF1
+Training set 5.931785e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.02427193 19.26885 8.323093 -0.01029868 1.531592 0.01312336
+                     ACF1
+Training set 5.697629e-05
+                     ME     RMSE      MAE        MPE    MAPE       MASE
+Training set 0.01497852 19.25667 8.319694 -0.0116577 1.53069 0.01311715
+                     ACF1
+Training set 3.529238e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01409851 19.24234 8.309579 -0.01177489 1.528766 0.01310124
+                     ACF1
+Training set 3.114473e-05
+                     ME     RMSE      MAE         MPE     MAPE      MASE
+Training set 0.01548406 19.22878 8.302822 -0.01154103 1.527368 0.0130906
+                     ACF1
+Training set 3.654637e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01620799 19.21456 8.293119 -0.01140664 1.525508 0.01307525
+                     ACF1
+Training set 3.570025e-05
+                      ME     RMSE      MAE         MPE     MAPE      MASE
+Training set 0.009390936 19.20138 8.287939 -0.01248438 1.524404 0.0130677
+                     ACF1
+Training set 3.754619e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.00718643 19.18736 8.279196 -0.01283018 1.522745 0.01305519
+                     ACF1
+Training set 3.455633e-05
+                       ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.0007327803 19.17503 8.274502 -0.01393244 1.521839 0.01305013
+                     ACF1
+Training set 2.677367e-05
+                     ME    RMSE      MAE         MPE     MAPE       MASE
+Training set 0.00124948 19.1612 8.266553 -0.01381656 1.520377 0.01304033
+                   ACF1
+Training set 2.5118e-05
+                     ME   RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01478877 19.155 8.269124 -0.01147823 1.520672 0.01304522
+                     ACF1
+Training set 2.826065e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01041514 19.14276 8.265498 -0.01217646 1.519795 0.01303974
+                     ACF1
+Training set 4.242643e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.01303068 19.13143 8.264273 -0.01174319 1.519304 0.01303839
+                     ACF1
+Training set 4.337729e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set 0.006876656 19.1188 8.258113 -0.01274265 1.518058 0.01302959
+                     ACF1
+Training set 4.374534e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.006480649 19.10498 8.249275 -0.01279081 1.516389 0.01301712
+                     ACF1
+Training set 4.251188e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.004191202 19.09174 8.242489 -0.01316926 1.515101 0.01300831
+                     ACF1
+Training set 4.003498e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set 0.002290755 19.07853 8.236111 -0.01349095 1.513881 0.01300021
+                     ACF1
+Training set 3.824069e-05
+                      ME     RMSE     MAE         MPE     MAPE      MASE
+Training set 0.001746363 19.06625 8.23119 -0.01357738 1.512961 0.0129949
+                     ACF1
+Training set 4.401332e-05
+                       ME    RMSE      MAE         MPE   MAPE       MASE
+Training set -0.007003351 19.0541 8.227761 -0.01520076 1.5124 0.01299263
+                     ACF1
+Training set 2.856797e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.01475613 19.0438 8.225728 -0.01677344 1.512317 0.01299392
+                     ACF1
+Training set 1.205839e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02208997 19.03138 8.220772 -0.01839438 1.511764 0.01299208
+                      ACF1
+Training set -1.165799e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02951355 19.0227 8.221402 -0.02026097 1.512938 0.01300072
+                     ACF1
+Training set -3.32983e-05
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.02388764 19.01027 8.21813 -0.01879362 1.512993 0.01300297
+                      ACF1
+Training set -1.706359e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02785378 18.99691 8.210776 -0.01980599 1.511973 0.01299863
+                      ACF1
+Training set -9.146423e-06
+                     ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0292351 18.9849 8.208599 -0.02017654 1.512336 0.01300269
+                      ACF1
+Training set -1.343445e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0324721 18.97234 8.202767 -0.02106592 1.511848 0.01300172
+                      ACF1
+Training set -1.698273e-05
+                     ME     RMSE     MAE        MPE     MAPE       MASE
+Training set -0.0376924 18.95972 8.19712 -0.0226125 1.511555 0.01300179
+                      ACF1
+Training set -6.931369e-06
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.03863662 18.94627 8.18787 -0.02289613 1.510229 0.01299675
+                     ACF1
+Training set 7.928297e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.04307001 18.93315 8.180362 -0.02435993 1.509561 0.01299495
+                     ACF1
+Training set 1.886507e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.05117019 18.92302 8.179001 -0.02749884 1.511471 0.01300419
+                      ACF1
+Training set -4.882091e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.05369961 18.90959 8.169887 -0.02861594 1.510498 0.01300172
+                      ACF1
+Training set -2.298742e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.05163073 18.8964 8.161208 -0.02768148 1.509717 0.01300007
+                      ACF1
+Training set -5.043745e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.05164544 18.88306 8.152092 -0.02769154 1.508712 0.01299754
+                      ACF1
+Training set -1.898295e-05
+                      ME     RMSE      MAE         MPE   MAPE       MASE
+Training set -0.04531943 18.87069 8.146571 -0.02508484 1.5091 0.01300018
+                      ACF1
+Training set -1.642856e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03363418 18.86071 8.146355 -0.02104965 1.510902 0.01300973
+                      ACF1
+Training set -7.708516e-05
+                      ME     RMSE      MAE        MPE     MAPE       MASE
+Training set -0.03394438 18.84748 8.138146 -0.0211381 1.509779 0.01300544
+                      ACF1
+Training set -9.452516e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03404529 18.83525 8.134176 -0.02117067 1.509931 0.01300782
+                      ACF1
+Training set -8.295428e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03565584 18.82222 8.125559 -0.02164819 1.508682 0.01300272
+                      ACF1
+Training set -8.856745e-05
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.03562896 18.80969 8.11948 -0.02163843 1.508204 0.01300181
+                      ACF1
+Training set -8.583107e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03359843 18.7971 8.113485 -0.02101687 1.507755 0.01300103
+                      ACF1
+Training set -5.041245e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03264777 18.78478 8.108283 -0.02072735 1.507478 0.01300113
+                     ACF1
+Training set -6.73139e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03496172 18.77161 8.099203 -0.02140437 1.506066 0.01299507
+                      ACF1
+Training set -7.365991e-05
+                      ME    RMSE     MAE         MPE     MAPE       MASE
+Training set -0.03808857 18.7587 8.09117 -0.02237122 1.505025 0.01299116
+                      ACF1
+Training set -8.016744e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03929356 18.7459 8.083817 -0.02275851 1.504249 0.01298881
+                      ACF1
+Training set -7.970833e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03978662 18.73321 8.077316 -0.02291909 1.503746 0.01298778
+                      ACF1
+Training set -8.989891e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0359015 18.72197 8.075132 -0.02166802 1.504663 0.01299367
+                      ACF1
+Training set -3.874731e-05
+                      ME    RMSE      MAE        MPE     MAPE       MASE
+Training set -0.03244326 18.7109 8.072939 -0.0205998 1.505273 0.01299866
+                      ACF1
+Training set -2.335676e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03298197 18.69835 8.066828 -0.02074859 1.504712 0.01299715
+                      ACF1
+Training set -3.826666e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0351481 18.68625 8.060996 -0.02140638 1.504277 0.01299635
+                     ACF1
+Training set -4.47267e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03320732 18.67397 8.055449 -0.02080603 1.503951 0.01299618
+                      ACF1
+Training set -5.506424e-05
+                      ME     RMSE      MAE         MPE    MAPE       MASE
+Training set -0.02753337 18.67746 8.065064 -0.01932264 1.50747 0.01301904
+                     ACF1
+Training set 6.740163e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.03008784 18.66609 8.062082 -0.02003533 1.507709 0.01302205
+                      ACF1
+Training set -2.902513e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0274232 18.65846 8.062509 -0.01933663 1.508686 0.01302988
+                     ACF1
+Training set 8.539618e-05
+                      ME     RMSE      MAE       MPE     MAPE       MASE
+Training set -0.02854921 18.64621 8.057132 -0.019637 1.508184 0.01302866
+                     ACF1
+Training set -6.98105e-06
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02845669 18.63359 8.049966 -0.01959952 1.507208 0.01302459
+                      ACF1
+Training set -3.177324e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02800455 18.62119 8.043819 -0.01946552 1.506509 0.01302214
+                     ACF1
+Training set -3.21258e-05
+                      ME    RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02882706 18.6092 8.037449 -0.01968601 1.505724 0.01301918
+                      ACF1
+Training set -3.230328e-05
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.0247391 18.59715 8.032602 -0.01857407 1.505344 0.01301865
+                      ACF1
+Training set -3.246972e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02235131 18.58606 8.029821 -0.01795861 1.505433 0.01302093
+                      ACF1
+Training set -3.664291e-05
+                      ME     RMSE      MAE         MPE    MAPE       MASE
+Training set -0.01744162 18.57597 8.026364 -0.01675558 1.50519 0.01302099
+                      ACF1
+Training set -4.503517e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.01950997 18.56577 8.025059 -0.01725509 1.505437 0.01302455
+                      ACF1
+Training set -3.807665e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.01868433 18.55329 8.017701 -0.01704445 1.504236 0.01301824
+                      ACF1
+Training set -3.832044e-05
+                      ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.02016833 18.54125 8.011868 -0.01738776 1.503405 0.01301443
+                     ACF1
+Training set 0.0001009141
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1034435 21.03759 9.168321 -0.05720017 1.539663 0.01320929
+                     ACF1
+Training set -0.001300049
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1033565 21.01702 9.155263 -0.05732618 1.542785 0.01321364
+                     ACF1
+Training set -0.001300921
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1026076 20.99644 9.142378 -0.05667021 1.545704 0.01321796
+                    ACF1
+Training set -0.00130214
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.1040205 20.97568 9.12728 -0.05840733 1.546212 0.01321916
+                     ACF1
+Training set -0.001303175
+                     ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.1033237 20.95492 9.11101 -0.05771897 1.545349 0.01321866
+                     ACF1
+Training set -0.001303107
+                     ME     RMSE      MAE         MPE     MAPE       MASE
+Training set -0.1014004 20.93442 9.096747 -0.05571843 1.546583 0.01322084
+                     ACF1
+Training set -0.001302825
+                      ME     RMSE     MAE         MPE     MAPE       MASE
+Training set -0.09966619 20.91381 9.08069 -0.05402115 1.545526 0.01322003
+                     ACF1
+Training set -0.001302484

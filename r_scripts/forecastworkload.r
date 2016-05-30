@@ -4,6 +4,7 @@ library(TTR);
 library(fpp)
 library(forecast)
 library(zoo)
+setwd("/Users/subramanya/Dropbox/Project/Code/ElasticSim/r_scripts");
 source("config.r");
 workload=read.csv(WORKLOAD,sep=",",header=F);
 workload_header=c("UnixTimeStamp","ActiveSessions");
@@ -19,7 +20,9 @@ arimaScaleupPrediction=c();
 for (i in seq(trainsamples,workloadsize,LOOKAHEAD_SCALEUP)){
   arimaFit=auto.arima(workload_tsdata[1:i])
   pred=forecast(arimaFit,h=LOOKAHEAD_SCALEUP)
-  accuracy(pred)
+  sink("accuracy_scaleup.log",append =T);
+  print(accuracy(pred));
+  sink();
   arimaScaleupPrediction=c(arimaScaleupPrediction,pred$mean);
 }
 predicted_scaleup=zoo(arimaScaleupPrediction[1:testsamples],workload$posxtime[trainsamples+1:workloadsize]);
@@ -31,7 +34,9 @@ arimaScaledownPrediction=c();
 for (i in seq(trainsamples,workloadsize,LOOKAHEAD_SCALEDOWN)){
   arimaFit=auto.arima(workload_tsdata[1:i])
   pred=forecast(arimaFit,h=LOOKAHEAD_SCALEDOWN)
-  accuracy(pred)
+  sink("accuracy_scaledown.log",append =T);
+  print(accuracy(pred));
+  sink();
   arimaScaledownPrediction=c(arimaScaledownPrediction,pred$mean);
 }
 predicted_scaledown=zoo(arimaScaledownPrediction[1:testsamples],workload$posxtime[trainsamples+1:workloadsize]);
