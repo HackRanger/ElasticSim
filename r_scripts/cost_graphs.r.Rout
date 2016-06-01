@@ -17,6 +17,8 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+[Previously saved workspace restored]
+
 > Sys.setlocale("LC_TIME", "C");
 [1] "C"
 > library(lubridate);
@@ -55,34 +57,9 @@ Loading required package: lmtest
 > source("config.r");
 > cost_header = c("baseline","ricost","odicost","totalcost","ricount","odicount");
 > cost_log = read.csv(COST_LOG,sep=",",header=F);
-> colnames(cost_log)  <- cost_header; 
-> mat = as.matrix(cost_log)
-> 
-> name = c()
-> j = dim(mat)
-> 
-> 
-> for(i in seq(1,j[1]))
-+ {
-+ 	temp = paste("opt",as.character(i),sep="");
-+ 	name = c(name,temp)
-+ }
-> 
-> rownames(mat) = name
-> tmat=t(mat)
-> 
-> wid = (j[1] * 10) / 7;
-> 
-> pdf("cost_graphs.pdf",width=wid,height=10)
-> opar <- par(no.readonly=TRUE)
-> bp=barplot(tmat,main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(2:7),beside=T,legend=colnames(mat),horiz = F)
-> text(bp, 0, round(tmat, 1),cex=1.5,pos=3,offset=19,srt = 90) 
-> par(opar)
-> dev.off()
-null device 
-          1 
-> 
-> 
-> proc.time()
-   user  system elapsed 
-  1.180   0.073   1.294 
+Error in file(file, "rt") : cannot open the connection
+Calls: read.csv -> read.table -> file
+In addition: Warning message:
+In file(file, "rt") :
+  cannot open file '../logs/cost_log.csv': No such file or directory
+Execution halted
