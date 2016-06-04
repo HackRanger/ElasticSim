@@ -1,3 +1,4 @@
+WORKLOAD_SIZE=2500
 WORKLOAD="../workloads/rtc_last_dataset.csv";
 ACTUAL_WORKLOAD="../workloads/actual_workload.csv";
 FORECAST_SCALEUP_WORKLOAD="../workloads/forecast_scaleup.csv";

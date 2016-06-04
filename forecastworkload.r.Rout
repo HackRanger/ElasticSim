@@ -30,47 +30,7 @@ The following object is masked from ‘package:base’:
 Warning message:
 package ‘lubridate’ was built under R version 3.2.4 
 > library(TTR);
+
 Warning message:
 package ‘TTR’ was built under R version 3.2.4 
-> library(fpp)
-Loading required package: forecast
-Loading required package: zoo
-
-Attaching package: ‘zoo’
-
-The following objects are masked from ‘package:base’:
-
-    as.Date, as.Date.numeric
-
-Loading required package: timeDate
-This is forecast 6.2 
-
-Loading required package: fma
-Loading required package: tseries
-Loading required package: expsmooth
-Loading required package: lmtest
-> library(forecast)
-> library(zoo)
-> setwd("/Users/subramanya/Dropbox/Project/Code/ElasticSim/r_scripts");
-> source("config.r");
-> workload=read.csv(WORKLOAD,sep=",",header=F);
-> workload_header=c("UnixTimeStamp","ActiveSessions");
-> colnames(workload) <- workload_header;
-> workloadsize=length(workload$ActiveSessions);
-> trainsamples=workloadsize/2;
-> testsamples=workloadsize/2;
-> workload$posxtime=as.POSIXct(workload$UnixTimeStamp, origin="1970-01-01"); 
-> workload_tsdata=zoo(workload$ActiveSessions,workload$posxtime);
-> 
-> #predict for scaleup
-> arimaScaleupPrediction=c();
-> for (i in seq(trainsamples,workloadsize,LOOKAHEAD_SCALEUP)){
-+   arimaFit=auto.arima(workload_tsdata[1:i])
-+   pred=forecast(arimaFit,h=LOOKAHEAD_SCALEUP)
-+   sink("accuracy_scaleup.log",append =T);
-+   print(accuracy(pred));
-+   sink();
-+   arimaScaleupPrediction=c(arimaScaleupPrediction,pred$mean);
-+ }
-
 Execution halted

@@ -1,250 +1,250 @@
-source("forecastworkload.r",echo=T)
-write(arimaScaleupPrediction,"data")
-write.csv(as.data.frame(arimaScaleupPrediction),"data")
-dataframe(arimaScaleupPrediction[1:testsamples],workload$posxtime[trainsamples+1:workloadsize])
-data.frame(arimaScaleupPrediction[1:testsamples],workload$posxtime[trainsamples+1:workloadsize])
-data.frame(workload$UnixTimeStamp[trainsamples+1:workloadsize],arimaScaleupPrediction[1:testsamples])
-length(workload$UnixTimeStamp[trainsamples+1:workloadsize])
-length(workload$UnixTimeStamp[2500:workloadsize])
-length(workload$UnixTimeStamp[2549:workloadsize])
-length(workload$UnixTimeStamp[2501:workloadsize])
-trainsamples
-workloadsize
-length(workload$UnixTimeStamp[trainsamples+1:workloadsize])
-length(workload$UnixTimeStamp[2500:5000])
-length(workload$UnixTimeStamp[2501:5000])
-data.frame(workload$UnixTimeStamp[2501:workloadsize],arimaScaleupPrediction[1:testsamples])
-data.frame(workload$UnixTimeStamp[2501:5000],arimaScaleupPrediction[1:2500])
-dataforfile=data.frame(workload$UnixTimeStamp[2501:5000],arimaScaleupPrediction[1:2500])
-write.csv(dataforfile,"data")
-plot(workload$ActiveSessions[2501:5000])
-plot(workload_tsdata[2501:5000])
-lines(predicted_scaleup)
-lines(predicted_scaleup,col="red")
-source("forecastworkload.r")
-source("forecastworkload.r",echo=T)
-source("forecastworkload.r",echo=T)
-length(arimaScaledownPrediction)
-predicted_scaledown=zoo(arimaScaledownPrediction,workload$posxtime[trainsamples+1,workloadsize]);
-predicted_scaledown=zoo(arimaScaledownPrediction,workload$posxtime[2501,5000]);
-predicted_scaledown=zoo(arimaScaledownPrediction[1:testsamples],workload$posxtime[trainsamples+1,workloadsize]);
-predicted_scaledown=zoo(arimaScaledownPrediction[1:testsamples],workload$posxtime[trainsamples+1:workloadsize]);
-forecastedscaledown=data.frame(workload$UnixTimeStamp[2501:5000],arimaScaleupPrediction[1:2500])
-write.csv(forecastedscaledown,FORECAST_SCALEUP_WORKLOAD)
-write.csv(forecastedscaledown,FORECAST_SCALEDOWN_WORKLOAD)
-source("forecastworkload.r")
-source("forecastworkload.r",echo=T)
-source("forecastworkload.r",echo=T)
-plot(workload_tsdata[2501:5000])
-lines(predicted_scaleup,col="red")
-lines(predicted_scaledown,col="blue")
-max(predicted_scaleup)
-max(predicted_scaledown)
-max(workload$ActiveSessions)
-max(workload$ActiveSessions[2501:5000])
-plot(workload$ActiveSessions[2501:5000])
-source("simulation_graphs.r")
-source("simulation_graphs.r")
-source("simulation_graphs.r")
-source("simulation_graphs.r")
-source("simulation_graphs.r",verbose=1)
-length(sim_log)
-sim_log
-sim_log[1,]
-sim_log[2,]
-source("simulation_graphs.r",verbose=1)
-zoo(sim_log$ActiveSessions,sim_log$StampToPosxTime)
-sim_log$ActiveSessions
-zoo(sim_log$ActiveSessions,sim_log$StampToPosxTime)
-sim_log$StampToPosxTime
-as.POSIXct(sim_log$UnixTimeStamp, origin="1970-01-01")
-source("simulation_graphs.r",verbose=1)
-plot(tsdata.capacity)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-seq(1,2500,180)
-i=seq(1,2500,180)
-i
-i[1]
-i[2]
-i+1
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-source("simulation_graphs.r",verbose=1)
-remove.packages("vimcom")
-forecastdata_scaleup
-source("cost_graphs.r")
-cost_log
-table(cost_log)
-barplot(table(cost_log))
-table(cost_log$baseline)
-table(cost_log$odicost)
-length(cost_log)
-matrix(cost_log)
-matrix(cost_log,6,6)
-cost_log
-barplot(cost_log[1,])
-barplot(cost_log[,1])
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-barplot(cost_log[,1])
-cost_log[,1]
-cost_log[1,]
-barplot(cost_log[1,])
-table(cost_log[1,])
-barplot(table(cost_log[1,]))
-mat = as.matrix(cost_log[-1])
-rownames(mat) <- cost_log[,1]
-barplot(mat)
-barplot(mat,beside=T)
-mat
-mat = as.matrix(cost_log[-1])
-mat
-mat = as.matrix(cost_log)
-mat
-rownames = c("opt1","opt2","opt3","opt4","opt5","opt6","opt7")
-rownames(mat) = c("opt1","opt2","opt3","opt4","opt5","opt6","opt7")
-mat
-barplot(mat,beside=T)
-t(mat)
-barplot(t(mat),beside=T)
-barplot(t(mat),main="Cost of each option to reserve instance",beside=T)
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in $",beside=T)
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:7),beside=T)
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T)
-mat
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T)
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=rownames(mat))
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=colnames(mat))
-t(mat)
-?text
-source("cost_graphs.r")
-?pdf
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-?text
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=colnames(mat))
-bp=barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=colnames(mat))
-text(bp,y=tmat[1,])
-text(bp,y=tmat[1,],cex=1)
-bp=barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=colnames(mat))
-text(bp,y=tmat[1,],cex=1)
-text(bp,cex=1,pos=3)
-bp=barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=colnames(mat))
-text(bp,cex=1,pos=3)
-bp=barplot(t(mat),main="Cost of each option to reserve instance",xlab="Options", ylab="Cost in USD",col=c(1:6),beside=T,legend=colnames(mat))
-text(bp,0,cex=1,pos=3)
-?text
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-?text
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-?text
-?text
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("cost_graphs.r")
-?barplot
-source("cost_graphs.r")
-source("cost_graphs.r")
-source("forecastworkload.r")
-?sink
-source("forecastworkload.r")
-source("forecastworkload_graph.r")
-source("forecastworkload_graph.r",verbose=1)
-scale_up_workload$PosxTime= as.POSIXct(scale_up_workload$UnixTimeStamp, origin="1970-01-01");
-scale_up_workload$UnixTimeStamp
-scale_up_workload$UnixTimeStamp * 1000
-scale_up_workload$UnixTimeStamp / 1000
-scale_up_workload$UnixTimeStamp[1,]
-scale_up_workload$UnixTimeStamp[,1]
-scale_up_workload$UnixTimeStamp
-scale_up_workload$PosxTime= as.POSIXct(scale_up_workload$UnixTimeStamp, origin="1970-01-01");
-scale_up_workload[1,]
-scale_up_workload[2,]
-scale_up_workload[3,]
-source("forecastworkload_graph.r")
-source("forecastworkload_graph.r")
-source("forecastworkload_graph.r")
-source("forecastworkload_graph.r")
-source("forecastworkload_graph.r")
-scale_down_workload
-source("forecastworkload_graph.r")
-source("forecastworkload_graph.r")
-?write.csv
-?capture.output
-source("forecastworkload_graph.r")
-source("forecastworkload.r")
-source("forecastworkload.r")
-source("forecastworkload.r")
-sink()
-sink()
-source("forecastworkload.r")
-source("forecastworkload.r")
-auto.arima(tsdata.actual)
-plot(tsdata.actual)
-dev.off()
-dev.off()
-plot(tsdata.actual)
-auto.arima(tsdata.actual)
-plot(auto.arima(tsdata.actual))
-fit=auto.arima(tsdata.actual)
-diag(fit)
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) +  geom_line(aes(y=VmActive,colour="green"))
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) +  geom_line(aes(y=VmActive,colour="green")) + ylab(label="VM count") + xlab(lable="Time")
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) +  geom_line(aes(y=VmActive,colour="green")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="green")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="erd")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand)) +  geom_line(aes(y=VmActive)) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(min) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(date_labels = "%b %d") + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(breaks=date_breaks("1 min"), labels=date_format("%H:%M")) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+vm_demand_available_billing
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(limits = as.POSIXct(c("2015-05-28", "2015-06-01")), format = "%Y-%m-%d") + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(limits = as.POSIXct(c("2015-05-28", "2015-06-01"))), format = "%Y-%m-%d") + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(limits = as.POSIXct(c("2015-05-28", "2015-06-01")), format = "%Y-%m-%d") + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + scale_x_datetime(limits=c(as.POSIXct("2015-05-28"),as.POSIXct("2015-06-01")), format = "%Y-%m-%d" ) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+breaks <- make_breaks(min(samp$timestamp), hour=0, interval='minutes', length.out=length(days))
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time") +  scale_x_datetime(breaks = date_breaks("1 min"))
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time") +  scale_x_datetime(breaks = date_breaks("1 days"))
+install.packages('scales')
+require('scales')
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time") +  scale_x_datetime(breaks = date_breaks("1 days"))
+date_breaks
+date_breaks?
+? date_breaks
+ggplot(data=vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time") +  scale_x_datetime(breaks = date_breaks("1 min"))
+require(ggplot2)
+require(scales)
+qplot(vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time") +  scale_x_datetime(breaks = date_breaks("1 min"))
+qplot(vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time") +  scale_x_datetime("", format = "%b")
+qplot(vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="blue")) +  geom_line(aes(y=VmActive,colour="red")) + ylab(label="VM count") + xlab("Time")
+data(LakeHuron)
+?arima
+sim.ar<-arima.sim(list(ar=c(0.4,0.4)),n=1000)
+sim.ar
+source
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+sim.ar <- ts(data=vm_demand_available_billing$ActiveSessions,start=1,end=5000,frequency=1)
+dim(vm_demand_available_billing)
+sim.ma <- ts(data=vm_demand_available_billing$ActiveSessions,start=1,end=5000,frequency=1)
+par(mfrow=c(2,2))
+acf(sim.ar,main="ACF of AR(2) process")
+acf(sim.ma,main="ACF of MA(2) process")
+pacf(sim.ar,main="PACF of AR(2) process")
+pacf(sim.ma,main="PACF of MA(2) process")
+data(LakeHuron)
+LakeHuron
+plot(LakeHuron)
+plot(vm_demand_available_billing$ActiveSessions)
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(1,0,1))
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(15,0,15))
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(1,0,1))
 tsdiag(fit)
 Box.test(fit$residuals,lag=1)
+LH.pred <- predict(fit,n.ahead=15)
+LH.pred
+plot(vm_demand_available_billing$ActiveSessions,xlim=c(0,5000),ylim=c(0,700))
+LH.pred<-predict(fit,n.ahead=15)
+lines(LH.pred$pred,col="red")
+lines(LH.pred$pred+2*LH.pred$se,col="red",lty=3)
+lines(LH.pred$pred-2*LH.pred$se,col="red",lty=3)
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(2,0,2))
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(10,0,10))
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(2,0,2))
+tsdiag(fit)
+fit$coef
+fit
+ts.plot(vm_demand_available_billing$ActiveSessions)
+LH.pred<-predict(fit,n.ahead=500)
+lines(LH.pred$pred,col="red")
+LH.pred<-predict(fit,n.ahead=500)
+lines(LH.pred$pred,col="red")
+lines(LH.pred$pred+2*LH.pred$se,col="red",lty=3)
+lines(LH.pred$pred-2*LH.pred$se,col="red",lty=3)
+LH.pred<-predict(fit,n.ahead=10)
+lines(LH.pred$pred,col="red")
+ts.plot(vm_demand_available_billing$ActiveSessions)
+lines(LH.pred$pred,col="red")
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(4,0,4))
+tsdiag(fit)
+fit
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(1,0,1))
+fit
+fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(2,0,2))
+fit
+setwd("Dropbox/Project/Code/ElasticSim/r_scripts/")
+source("forecastworkload.r")
+source("simulation_graphs.r")
+adf.test(x=tsdata.userrequest)
+adf.test(x=diff(tsdata.userrequest))
+source("forecastworkload_graph.r")
+workload_tsdata[1:2500]
+adf.test(workload_tsdata[1:2500])
+adf.test(diff(workload_tsdata[1:2500]))
+dev.off()
+dev.off()
+acf(diff(workload_tsdata[1:2500]))
+tsdiag(diff(workload_tsdata[1:2500]))
+tsdiag(workload_tsdata[1:2500])
+pacf(diff(workload_tsdata[1:2500]))
+fit=auto.arima(workload_tsdata[1:2500])
+tsdiag(fit)
+fit=auto.arima(workload_tsdata[2500:5000])
+tsdiag(fit)
+fit=auto.arima(workload_tsdata[1:5000])
+tsdiag(fit)
+source("forecastworkload.r")
+fit
+pred = forecast(fit,h=10)
+acc=accuracy(pred)
+acc
+summary(acc)
+acc
+acc[1]
+acc[2]
+acc[3]
+acc[4]
+acc[5]
+acc[6]
+tsdisplay(workload_tsdata[1:5000])
+tsdisplay(diff(workload_tsdata[1:5000]))
+summary(fit)
+summary(forecast(fit))
+arimaScaleupPrediction
+tsdata.actual - tsdata.actualscaleup
+tsdata.actual
+tsdata.actual - tsdata.actualscaleup
+tsdata.forecast_scaleup
+tsdata.actualscaleup
+tsdata.actualscaleup[1,]
+tsdata.actual
+tsdata.actual[1,]
+tsdata.actual - tsdata.forecast_scaleup
+tsdata.actual - tsdata.forecast_scaleup[1,]
+mean(tsdata.actual - tsdata.forecast_scaleup)
+mean(tsdata.actual - tsdata.forecast_scaledown)
+?^
+?square
+mean((tsdata.actual - tsdata.forecast_scaledown) * (tsdata.actual - tsdata.forecast_scaledown))
+mean((tsdata.forecast_scaledown-tsdata.actual)*(tsdata.forecast_scaledown-tsdata.actual))
+mean((tsdata.forecast_scaledown-tsdata.actual)^2)
+tsdata.vmdemand - tsdata.vmactive
+plot(tsdata.vmdemand - tsdata.vmactive)
+plot((tsdata.vmdemand - tsdata.vmactive) * 120 )
+tsdata.actual - (tsdata.vmactive * 120)
+plot(tsdata.actual - (tsdata.vmactive * 120))
+slv= tsdata.actual - (tsdata.vmactive * 120)
+slv[1,]
+slv[,1]
+slv[,2]
+subset(slv)
+subset(slv,>0)
+subset(slv,slv>0)
+sla = tsdata.actual - (tsdata.vmactive * 120)
+subset(sla,sla>0)
+plot(subset(sla,sla>0))
+plot(tsdata.actual,col="red")
+lines(subset(sla,sla>0),col="blue")
+sum(subset(sla,sla>0))
+summaru(subset(sla,sla>0))
+summary(subset(sla,sla>0))
+sla = tsdata.actual - ((tsdata.vmdemand - tsdata.vmactive) * 120)
+sla
+sla = tsdata.actual - (tsdata.vmactive * 120)
+sla
+source("cost_graphs.r")
+mat
+dim(mat)
+?paste
+paste("opt",as.character(1))
+paste("opt",as.character(1),sep="")
+dim(mat)
+dim(mat)[q]
+dim(mat)[1]
+val=dim(mat)[1]
+val
+source("cost_graphs.r")
+ma,e
+name
+?merge
+source("cost_graphs.r")
+dim(mat)
+dim(mat)[1]
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+j
+j[1]
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+tmat[1]
+tmat[1,1]
+tmat[1,1]
+tmat[,1]
+tmat[,1:5]
+tmat[,1:7]
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("cost_graphs.r")
+source("simulation_graps_with_ri.r")
+dev.off()
+dev.off()
+dev.off()
+dev.off()
+source("simulation_graps_with_ri.r")
+source("simulation_graps_with_ri.r")
+mean(sla)
+summary(sla)
+summary(subset(sla,sla>0))
+sla = tsdata.actual - (tsdata.vmactive * 120)
+summary(subset(sla,sla>0))
+source("simulation_graphs.r")
+sla = tsdata.actual - (tsdata.vmactive * 120)
+sla
+summary(subset(sla,sla>0))
+fit=auto.arima(tsdata.actual)
+pred= forecast(fit,h=5)
+pred
+plot(pred)
+dev.off)
+dev.off())
+dev.off()
+dev.off()
+plot(pred)
+ts.plot(pred)
+source("simulation_graps_with_ri.r")
+source("simulation_graps_with_ri.r")
+source("simulation_graps_with_ri.r")
+(tsdata.vmreserved[i:j]+tsdata.vmactive[i:j])*120
+tsdata.vmreserved+tsdata.vmactive
+(tsdata.vmreserved+tsdata.vmactive)*120
+source("simulation_graps_with_ri.r")
+source("simulation_graps_with_ri.r",verbose=1)
+source("simulation_graps_with_ri.r",verbose=1)
