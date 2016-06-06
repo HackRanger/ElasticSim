@@ -1,10 +1,10 @@
 #!/bin/bash
 echo "Hello, welcome to ElasticSim."
-echo  "Enter your options to start the sumulation:"
+echo  "Enter your options to start the simulation:"
 echo  "1. Start prediction service to generate forecasting"
 echo  "2. Analyze historical workload to decide on reserved instances"
 echo  "3. Start running AppElastic scaling algorithm on workload with reserved instances" 
-echo  "4. Run AppElastic scaling algorithm as demo" 
+echo  "4. Run AppElastic scaling algorithm for testing"
 read option
 
 case $option in

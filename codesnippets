@@ -1,0 +1,136 @@
+ArrayList<Integer> userInPredictedInterval = getRequestCountsInTimeRange(timeStamp, timeStamp + scaleUpLookAhead,false);
+Collections.sort(userInPredictedInterval);
+int maxUserIntervalPredicted = userInPredictedInterval.get(userInPredictedInterval.size() - 1);
+int machineReq = (int) Math.ceil((double) maxUserIntervalPredicted / numberOfUserPerInstance);
+int machineRunning = 0;
+for (int i = 0; i < runningInstance.size(); i++) {
+	if(timeStamp <= runningInstance.get(i).endOfActivePeriod)
+		machineRunning+=1;
+}
+if (machineReq > machineRunning) {
+	int machinesToAdd = machineReq - machineRunning;
+	for (int i = 0; i < machinesToAdd; i++) {
+		machineID += 1;
+		runningInstance.add(new VmInstance(machineID, timeStamp, timeStamp + billingPeriod,
+					timeStamp + timeTakenToActive, (timeStamp + billingPeriod) - timetakenToShutdown));
+	}
+}
+
+
+
+ArrayList<Integer> usersInIntervalPredictedForScaleDown = getRequestCountsInTimeRange(timeStamp, timeStamp + scaleDownLookAhead,true);
+Collections.sort(usersInIntervalPredictedForScaleDown);
+int maxUserIntervalPredictedScaleDown = usersInIntervalPredictedForScaleDown.get(usersInIntervalPredictedForScaleDown.size() - 1);
+int machineRequired = (int) Math.ceil((double)maxUserIntervalPredictedScaleDown / numberOfUserPerInstance);
+ArrayList<VmInstance> vmsEndingActivePeriod = new ArrayList<>();
+for (int i = 0; i < runningInstance.size(); i++) {
+	if (runningInstance.get(i).endOfActivePeriod == timeStamp) {
+		vmsEndingActivePeriod.add(runningInstance.get(i));
+	}
+}
+int totalVmToKill = machineRunning - machineRequired;
+// kill all vm's which are ending active period.
+if ( totalVmToKill >= vmsEndingActivePeriod.size() ) {
+	for (int j = 0; j < vmsEndingActivePeriod.size(); j++) {
+		for (int i = 0; i < runningInstance.size(); i++) {
+			if (runningInstance.get(i).machineID == vmsEndingActivePeriod.get(j).machineID) {
+				runningInstance.get(i).canExtend = false;
+			}
+		}
+	}
+}
+// kill only subset of vm's ending active period.
+if (totalVmToKill < vmsEndingActivePeriod.size()) {
+	for (int j = 0; j < totalVmToKill; j++) {
+		for (int i = 0; i < runningInstance.size(); i++) {
+			if (runningInstance.get(i).machineID == vmsEndingActivePeriod.get(j).machineID) {
+				runningInstance.get(i).canExtend = false;
+			}
+		}
+	}
+}
+
+
+for (int i = 0; i < runningInstance.size(); i++) {
+	if (timeStamp == runningInstance.get(i).endOfActivePeriod && runningInstance.get(i).canExtend) {
+		runningInstance.get(i).endOfActivePeriod += billingPeriod;
+		runningInstance.get(i).billingHourEndTime += billingPeriod;
+	}
+}
+
+ArrayList<Integer> userInInterval5 = getRequestCountsInTimeRange(timeStamp, timeStamp + timeTakenToActive,false);
+Collections.sort(userInInterval5);
+int maxUserInterval5 = userInInterval5.get(userInInterval5.size() - 1);
+int machineReq = (int) Math.ceil((double)maxUserInterval5 / numberOfUserPerInstance);
+// Machines currently being reserved.
+int machineRunning = runningRiInstances.size();
+// Machines running in ODI
+for (int i = 0; i < runningOdiInstances.size(); i++) {
+	if(timeStamp <= runningOdiInstances.get(i).endOfActivePeriod)
+		machineRunning+=1;
+}
+if (machineReq > machineRunning) {
+	int machinesToAdd = machineReq - machineRunning;
+	for (int i = 0; i < machinesToAdd; i++) {
+		// machine id
+		// billingHourStartTime,
+		// billingHourEndTime,
+		// startOfActivePeriod,
+		// endOfActivePeriod
+		machineIDWithRI += 1;
+		runningOdiInstances.add(new VmInstance(machineIDWithRI, timeStamp, timeStamp + billingPeriod,
+					timeStamp + timeTakenToActive, (timeStamp + billingPeriod) - timetakenToShutdown));
+	}
+}
+
+ArrayList<Integer> usersInInterval15 = getRequestCountsInTimeRange(timeStamp, timeStamp + scaleDownLookAhead,true);
+Collections.sort(usersInInterval15);
+int maxUserInterval15 = usersInInterval15.get(usersInInterval15.size() - 1);
+int newMachineReq15 = (int) Math.ceil((double)maxUserInterval15 / numberOfUserPerInstance);
+
+ArrayList<VmInstance> vmsEndingActivePeriod = new ArrayList<>();
+for (int i = 0; i < runningOdiInstances.size(); i++) {
+	if (runningOdiInstances.get(i).endOfActivePeriod == timeStamp) {
+		vmsEndingActivePeriod.add(runningOdiInstances.get(i));
+	}
+}
+
+int totalVmToKill = machineRunning - newMachineReq15;
+
+if (vmsEndingActivePeriod.size() > 0) {
+	// kill all vm's which are ending active period.
+	if ( totalVmToKill >= vmsEndingActivePeriod.size() ) {
+		for (int j = 0; j < vmsEndingActivePeriod.size(); j++) {
+			for (int i = 0; i < runningOdiInstances.size(); i++) {
+				if (runningOdiInstances.get(i).machineID == vmsEndingActivePeriod.get(j).machineID) {
+					runningOdiInstances.get(i).canExtend = false;
+				}
+			}
+		}
+	}
+	// kill only subset of vm's ending active period.
+	if (totalVmToKill < vmsEndingActivePeriod.size()) {
+		for (int j = 0; j < totalVmToKill; j++) {
+			for (int i = 0; i < runningOdiInstances.size(); i++) {
+				if (runningOdiInstances.get(i).machineID == vmsEndingActivePeriod.get(j).machineID) {
+					runningOdiInstances.get(i).canExtend = false;
+				}
+			}
+		}
+	}
+}
+
+for (int i = 0; i < runningOdiInstances.size(); i++) {
+	if (timeStamp == runningOdiInstances.get(i).endOfActivePeriod && runningOdiInstances.get(i).canExtend) {
+		runningOdiInstances.get(i).endOfActivePeriod += billingPeriod;
+		runningOdiInstances.get(i).billingHourEndTime += billingPeriod;
+	}
+}
+
+for (int i = 0; i < runningRiInstances.size(); i++) {
+	if (timeStamp == runningRiInstances.get(i).endOfActivePeriod) {
+		runningRiInstances.get(i).endOfActivePeriod += billingPeriod;
+		runningRiInstances.get(i).billingHourEndTime += billingPeriod;
+	}
+
+
