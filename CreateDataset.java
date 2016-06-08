@@ -37,9 +37,9 @@ import org.influxdb.dto.Query;
 
 public class CreateDataset {
 
-	static final String USER_ARRIVAL_LOG = "/Users/subramanya/Documents/workspace/autoscaling/logs/timeseries_citrix_rtc_minute.csv";
+	static final String USER_ARRIVAL_LOG = "logs/timeseries_citrix_rtc_minute.csv";
 	static final String CSV_DELIMITOR = ";";
-	static final String USER_ARRIVAL_DATA_SET = "/Users/subramanya/Documents/workspace/autoscaling/logs/rtc_70_created_dataset.csv";
+	static final String USER_ARRIVAL_DATA_SET = "logs/rtc_created_dataset.csv";
 
 	public static void main(String[] args) {
 		BufferedReader br;
@@ -50,13 +50,7 @@ public class CreateDataset {
 		int countRI = (int) Math.ceil(maxInstance * percentOfRI);
 		int numberOfUserPerInstance = 120;
 		int userCoveredInRI = countRI * numberOfUserPerInstance;
-		InfluxDB influxDB = InfluxDBFactory.connect("http://80.156.222.17:8086", "root", "root");
-		String dbName = "aTimeSeries";
-		influxDB.createDatabase(dbName);
 
-		// Flush every 2000 Points, at least every 100ms
-		influxDB.enableBatch(2000, 100, TimeUnit.MILLISECONDS);
-		LocalDateTime lc = LocalDateTime.of(2015, 5, 28, 13, 0, 0);
 		System.out.println(lc.toEpochSecond(ZoneOffset.UTC));
 
 		// System.exit(0);
@@ -73,10 +67,6 @@ public class CreateDataset {
 					userReqCount = userCoveredInRI;
 				bw.write(start + "," + userReqCount);
 				bw.newLine();
-				Point point1 = Point.measurement("request").time(start, TimeUnit.SECONDS)
-						.field("arrival70", userReqCount).build();
-
-				influxDB.write(dbName, "default", point1);
 				System.out.println(start + "," + userReqCount);
 				start += 60;
 			}
