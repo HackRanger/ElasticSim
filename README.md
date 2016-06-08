@@ -1,8 +1,6 @@
 Welcome to ElasticSim
-
-
 Introduction:
-This is a simulator for testing autoscaling algorithms. 
+ElasticSim is a simulator environment for testing autoscaling algorithms. 
 
 Requirements: 
 This software is tested on Mac OSX El Capitan 10.11.5. 
@@ -35,3 +33,8 @@ Options:
 2. Analyze historical workload to decide on reserved instances
 3. Start running AppElastic scaling algorithm on workload with reserved instances
 4. Run AppElastic scaling algorithm for testing
+
+NOTE:
+TO TEST NEW ALGORITHMS, PLEASE REPLACE WITHOUT FORECASTING YOU SHOULD CONFIGURE FORECAST_SCALEUP_WORKLOAD, ACTUAL_WORKLOAD, FORECAST_SCALEDOWN_WORKLOAD TO SAME FILE. OR ELSE YOU WONT BE ALBE TO FIND PROBLEMS.
+
+TO TEST IF APPELASTIC ALGORITHAM IN THIS CODE WORKING OR NOT. PLEASE USE IT WITHOUT FORECASTING WORKLOADS. YOU SHOULD CONFIGURE FORECAST_SCALEUP_WORKLOAD, ACTUAL_WORKLOAD, FORECAST_SCALEDOWN_WORKLOAD TO SAME FILE. OR ELSE YOU WONT BE ALBE TO FIND THE RESULTS.
