@@ -1,3 +1,120 @@
+servers[,c(1,8,3,4)]
+servers[,c(1,8,3)]
+remaining_vm
+remaining_vm[,c(1,8,3)]
+remaining_vm[,c(1)]
+remaining_vm[,1]
+remaining_vm[1,]
+remaining_vm
+remaining_vm$
+remaining_vm
+dim(total)[1]
+servers[,c(1,8,3,4)]
+servers[,c(3)]
+servers[,c(3)] + 10
+total1[1,]
+total[1,]
+total[2480,]
+source("/Users/subramanya/Dropbox/thesis/ScalingService12.R")
+source("/Users/subramanya/Dropbox/Project/ScalingService12.R")
+servers[,c(1,8,3,4)]
+source("/Users/subramanya/Dropbox/Project/ScalingService12.R")
+servers[,c(1,8,3,4)]
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+vm_demand_available_billing
+datetime = as.POSIXct(vm_demand_available_billing$X1432818000, origin="1970-01-01")
+datetime
+datetime[1,]
+datetime[,1]
+datetime[1]
+datetime[0]
+datetime[1]
+vm_demand_available_billing[1,]
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+vm_demand_available_billing[1,]
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+dim(vm_demand_available_billing)
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+dim(vm_demand_available_billing)
+vm_demand_available_billing[1,]
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r",print.eval=T)
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r",verbose=1)
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r",verbose=2)
+billing_header
+dim(billing_header)
+dim(billing_header$)
+dim(billing_header)
+billing_header
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r",verbose=2)
+colnames(vm_demand_available_billing)  <- billing_header
+vm_demand_available_billing[1,]
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+vm_demand_available_billing$StampToPosxTime = as.POSIXct(vm_demand_available_billing$UnixTimeStamp, origin="1970-01-01")
+vm_demand_available_billing[1,]
+source("/Users/subramanya/Documents/workspace/elasticapps/r_scripts/create_vm_active_billing.r")
+vm_demand_available_billing[1,]
+require(graphics)
+ts.plot(vm_demand_available_billing$ActiveSessions,vm_demand_available_billing$VmDemand,vm_demand_available_billing$VmActive,vm_demand_available_billing$VmBilled, gpars=list(xlab="time",ylab="VMs",lty=c(1:4)))
+plot(vm_demand_available_billing$ActiveSessions,vm_demand_available_billing$VmDemand,vm_demand_available_billing$VmActive,vm_demand_available_billing$VmBilled)
+plot(vm_demand_available_billing)
+library(ggplot2)
+vm_demand_available_billing[,c(3,4,5)]
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=vm_demand_available_billing$StampToPosxTime,y=vm_demand_available_billing$ActiveSessions))
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=vm_demand_available_billing$StampToPosxTime))
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=vm_demand_available_billing$StampToPosxTime,y=vm_demand_available_billing$ActiveSessions))
+ggplot(vm_demand_available_billing$ActiveSessions,aes(x=vm_demand_available_billing$StampToPosxTime,y=vm_demand_available_billing$ActiveSessions))
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=vm_demand_available_billing$StampToPosxTime))
+ggplot(vm_demand_available_billing,aes(x=StampToPosxTime))
+ggplot(vm_demand_available_billing,aes(x=StampToPosxTime,y=ActiveSessions))
+hist(vm_demand_available_billing)
+hist(vm_demand_available_billing$ActiveSessions)
+ggplot(vm_demand_available_billing,aes(x=StampToPosxTime))
+ggplot(vm_demand_available_billing,aes(x=StampToPosxTime)) + geom_histogram()
+plot(vm_demand_available_billing$ActiveSessions)
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=StampToPosxTime,y=count,color=c(1:3))
+geom_plot()
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=StampToPosxTime,y=count,color=c(1:3)) + geom_point()
+;
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x=StampToPosxTime,y=count,color=c(1:3))) + geom_point()
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x= StampToPosxTime,y=count,color=c(1:3))) + geom_point()
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x= vm_demand_available_billing$StampToPosxTime,y=count,color=c(1:3))) + geom_point()
+ggplot(vm_demand_available_billing[,c(3,4,5)],aes(x= vm_demand_available_billing$StampToPosxTime,y=vm_demand_available_billing$ActiveSessions,color=c(1:3))) + geom_point()
+ts(vm_demand_available_billing)
+ts.plot(vm_demand_available_billing)
+beer = ts(vm_demand_available_billing)
+plot(stl(log(beer),s.window="periodic"))
+ts.plot(vm_demand_available_billing$ActiveSessions)
+beer = ts(vm_demand_available_billing$ActiveSessions)
+plot(stl(log(beer),s.window="periodic"))
+beer = ts(vm_demand_available_billing$ActiveSessions,start=2015,freq=12)
+plot(stl(log(beer),s.window="periodic"))
+ts.plot(beer)
+beer = ts(vm_demand_available_billing$ActiveSessions,start=1,freq=1)
+ts.plot(beer)
+beer = ts(vm_demand_available_billing$ActiveSessions)
+ts.plot(beer)
+beer
+ts?
+?ts
+beer = ts(vm_demand_available_billing$ActiveSessions,start=vm_demand_available_billing$UnixTimeStamp[1,])
+beer = ts(vm_demand_available_billing$ActiveSessions,start=c(2015,5,28),end=c(2015,6,1))
+ts.plot(beer)
+beer = ts(vm_demand_available_billing$ActiveSessions,start=c(2015,5,28),end=c(2015,6,1),frequency=1)
+ts.plot(beer)
+HoltWinters(beer)
+beer = ts(vm_demand_available_billing$ActiveSessions)
+HoltWinters(beer)
+plot(beer)
+ggplot(vm_demand_available_billing)
+ggplot(vm_demand_available_billing) + geom_line()
+ggplot(vm_demand_available_billing$ActiveSessions) + geom_line()
+ggplot(vm_demand_available_billing$ActiveSessions)
+plot(vm_demand_available_billing$StampToPosxTime,vm_demand_available_billing$ActiveSessions)
+require(ggplot2)
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime, ActiveSessions)) + geom_line()
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=ActiveSessions,colour="blue")) + geom_line(aes(y=VmDemand,colour="red")) + geom_line(aes(y=ActiveSessions,colour="blue")) + geom_line(aes(y=VmActive,colour="green"))
+ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) + geom_line(aes(y=ActiveSessions,colour="blue")) + geom_line(aes(y=VmActive,colour="green"))
 ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) +  geom_line(aes(y=VmActive,colour="green"))
 ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) +  geom_line(aes(y=VmActive,colour="green")) + ylab(label="VM count") + xlab(lable="Time")
 ggplot(data=vm_demand_available_billing,aes(StampToPosxTime)) + geom_line(aes(y=VmDemand,colour="red")) +  geom_line(aes(y=VmActive,colour="green")) + ylab(label="VM count") + xlab("Time")
@@ -86,108 +203,30 @@ fit
 fit <- arima(vm_demand_available_billing$ActiveSessions,order=c(2,0,2))
 fit
 setwd("Dropbox/Project/Code/ElasticSim/r_scripts/")
-source("forecastworkload.r")
-source("simulation_graphs.r")
-adf.test(x=tsdata.userrequest)
-adf.test(x=diff(tsdata.userrequest))
 source("forecastworkload_graph.r")
-workload_tsdata[1:2500]
-adf.test(workload_tsdata[1:2500])
-adf.test(diff(workload_tsdata[1:2500]))
-dev.off()
-dev.off()
-acf(diff(workload_tsdata[1:2500]))
-tsdiag(diff(workload_tsdata[1:2500]))
-tsdiag(workload_tsdata[1:2500])
-pacf(diff(workload_tsdata[1:2500]))
-fit=auto.arima(workload_tsdata[1:2500])
-tsdiag(fit)
-fit=auto.arima(workload_tsdata[2500:5000])
-tsdiag(fit)
-fit=auto.arima(workload_tsdata[1:5000])
-tsdiag(fit)
-source("forecastworkload.r")
-fit
-pred = forecast(fit,h=10)
-acc=accuracy(pred)
-acc
-summary(acc)
-acc
-acc[1]
-acc[2]
-acc[3]
-acc[4]
-acc[5]
-acc[6]
-tsdisplay(workload_tsdata[1:5000])
-tsdisplay(diff(workload_tsdata[1:5000]))
-summary(fit)
-summary(forecast(fit))
-arimaScaleupPrediction
-tsdata.actual - tsdata.actualscaleup
-tsdata.actual
-tsdata.actual - tsdata.actualscaleup
-tsdata.forecast_scaleup
-tsdata.actualscaleup
-tsdata.actualscaleup[1,]
-tsdata.actual
-tsdata.actual[1,]
-tsdata.actual - tsdata.forecast_scaleup
-tsdata.actual - tsdata.forecast_scaleup[1,]
-mean(tsdata.actual - tsdata.forecast_scaleup)
-mean(tsdata.actual - tsdata.forecast_scaledown)
-?^
-?square
-mean((tsdata.actual - tsdata.forecast_scaledown) * (tsdata.actual - tsdata.forecast_scaledown))
-mean((tsdata.forecast_scaledown-tsdata.actual)*(tsdata.forecast_scaledown-tsdata.actual))
-mean((tsdata.forecast_scaledown-tsdata.actual)^2)
-tsdata.vmdemand - tsdata.vmactive
-plot(tsdata.vmdemand - tsdata.vmactive)
-plot((tsdata.vmdemand - tsdata.vmactive) * 120 )
-tsdata.actual - (tsdata.vmactive * 120)
-plot(tsdata.actual - (tsdata.vmactive * 120))
-slv= tsdata.actual - (tsdata.vmactive * 120)
-slv[1,]
-slv[,1]
-slv[,2]
-subset(slv)
-subset(slv,>0)
-subset(slv,slv>0)
-sla = tsdata.actual - (tsdata.vmactive * 120)
-subset(sla,sla>0)
-plot(subset(sla,sla>0))
-plot(tsdata.actual,col="red")
-lines(subset(sla,sla>0),col="blue")
-sum(subset(sla,sla>0))
-summaru(subset(sla,sla>0))
-summary(subset(sla,sla>0))
-sla = tsdata.actual - ((tsdata.vmdemand - tsdata.vmactive) * 120)
-sla
-sla = tsdata.actual - (tsdata.vmactive * 120)
-sla
-source("cost_graphs.r")
-mat
-dim(mat)
-?paste
-paste("opt",as.character(1))
-paste("opt",as.character(1),sep="")
-dim(mat)
-dim(mat)[q]
-dim(mat)[1]
-val=dim(mat)[1]
-val
-source("cost_graphs.r")
-ma,e
-name
-?merge
-source("cost_graphs.r")
-dim(mat)
-dim(mat)[1]
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+?legend
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
+source("forecastworkload_graph.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
-j
-j[1]
+?text
+source("cost_graphs.r")
+source("cost_graphs.r")
+?text
+source("cost_graphs.r")
+source("cost_graphs.r")
+?text
 source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
@@ -198,12 +237,6 @@ source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
-tmat[1]
-tmat[1,1]
-tmat[1,1]
-tmat[,1]
-tmat[,1:5]
-tmat[,1:7]
 source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
@@ -213,38 +246,5 @@ source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
 source("cost_graphs.r")
-source("simulation_graps_with_ri.r")
-dev.off()
-dev.off()
-dev.off()
-dev.off()
-source("simulation_graps_with_ri.r")
-source("simulation_graps_with_ri.r")
-mean(sla)
-summary(sla)
-summary(subset(sla,sla>0))
-sla = tsdata.actual - (tsdata.vmactive * 120)
-summary(subset(sla,sla>0))
-source("simulation_graphs.r")
-sla = tsdata.actual - (tsdata.vmactive * 120)
-sla
-summary(subset(sla,sla>0))
-fit=auto.arima(tsdata.actual)
-pred= forecast(fit,h=5)
-pred
-plot(pred)
-dev.off)
-dev.off())
-dev.off()
-dev.off()
-plot(pred)
-ts.plot(pred)
-source("simulation_graps_with_ri.r")
-source("simulation_graps_with_ri.r")
-source("simulation_graps_with_ri.r")
-(tsdata.vmreserved[i:j]+tsdata.vmactive[i:j])*120
-tsdata.vmreserved+tsdata.vmactive
-(tsdata.vmreserved+tsdata.vmactive)*120
-source("simulation_graps_with_ri.r")
-source("simulation_graps_with_ri.r",verbose=1)
-source("simulation_graps_with_ri.r",verbose=1)
+source("cost_graphs.r")
+source("cost_graphs.r")

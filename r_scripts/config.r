@@ -13,3 +13,4 @@ VM_BILLING_HOURS_LOG="../logs/billing_hours.csv";
 VM_BILLING_HOURS_WITH_RI_LOG="../logs/billing_hours_with_ri.csv";
 VM_BILLING_HOURS_WITH_RI_VERBOSE_LOG="../logs/verbose_billing_hours_with_ri.csv";
 COST_LOG="../logs/cost_log.csv"
+library(hydroTSM)

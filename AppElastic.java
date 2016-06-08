@@ -133,10 +133,10 @@ public class AppElastic {
                 if(runningInstance.get(i).canExtend) {
                     StringBuilder sb = new StringBuilder().append(runningInstance.get(i).machineID)
                             .append(",")
-                            .append(new Date(runningInstance.get(i).billingHourStartTime * 1000))
-                            .append(",").append(new Date(runningInstance.get(i).billingHourEndTime * 1000))
-                            .append(",").append(new Date(runningInstance.get(i).startOfActivePeriod * 1000))
-                            .append(",").append(new Date(runningInstance.get(i).endOfActivePeriod * 1000))
+                            .append(runningInstance.get(i).billingHourStartTime)
+                            .append(",").append(runningInstance.get(i).billingHourEndTime)
+                            .append(",").append(runningInstance.get(i).startOfActivePeriod)
+                            .append(",").append(runningInstance.get(i).endOfActivePeriod)
                             .append(",").append((runningInstance.get(i).billingHourEndTime
                                     - runningInstance.get(i).billingHourStartTime) / 60)
                             .append(",").append(odiCost * (((runningInstance.get(i).billingHourEndTime
@@ -378,7 +378,6 @@ public class AppElastic {
                 bw1.write(sb.toString());
                 bw1.newLine();
                 bw1.flush();
-
             }
             bw1.close();
             // </editor-fold>
